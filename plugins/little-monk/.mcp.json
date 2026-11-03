@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "little-monk": {
+      "type": "http",
+      "url": "https://app.littlemonk.app/mcp"
+    }
+  }
+}

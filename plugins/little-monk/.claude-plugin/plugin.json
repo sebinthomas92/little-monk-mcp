@@ -1,0 +1,20 @@
+{
+  "name": "little-monk",
+  "version": "1.0.0",
+  "description": "Plan your day and keep notes in Little Monk: today's plan, tasks, deep work and captures.",
+  "author": {
+    "name": "Creative Sparks",
+    "email": "support@littlemonk.app"
+  },
+  "homepage": "https://app.littlemonk.app/docs/connect/claude-code",
+  "repository": "https://github.com/sebinthomas92/little-monk-mcp",
+  "privacyPolicyUrl": "https://littlemonk.app/privacy",
+  "license": "Proprietary",
+  "keywords": [
+    "planner",
+    "tasks",
+    "deep work",
+    "notes",
+    "productivity"
+  ]
+}

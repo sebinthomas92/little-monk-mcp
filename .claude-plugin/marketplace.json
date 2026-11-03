@@ -1,0 +1,15 @@
+{
+  "name": "little-monk",
+  "owner": { "name": "Creative Sparks", "email": "support@littlemonk.app" },
+  "metadata": { "description": "Little Monk: Daily Planner for Claude Code." },
+  "plugins": [
+    {
+      "name": "little-monk",
+      "source": "./plugins/little-monk",
+      "description": "Plan your day and keep notes in Little Monk from Claude Code: today's plan, tasks, deep work and captures.",
+      "version": "1.0.0",
+      "homepage": "https://app.littlemonk.app/docs/connect/claude-code",
+      "category": "productivity"
+    }
+  ]
+}

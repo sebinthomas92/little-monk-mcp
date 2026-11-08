@@ -24,3 +24,5 @@ Little Monk is the person's daily planner. The `little-monk` MCP server reads an
 6. `delete_items` is permanent on every device. A session with recorded time or a review needs `confirm_history_loss: true`; ask the person first and say what will be lost.
 7. When a tool refuses (a running session, recorded history, no Pro), pass its message on; it says what to do.
 8. Say "saved to your Little Monk library", not "synced": devices apply changes when they next sync.
+9. For "will I fit this in" or "when am I free", use the capacity in `get_overview` and `find_free_time`. They count Little Monk plans only, not calendars; say so. Give capacity as plain numbers, never as a warning.
+10. For a morning plan, an end of day or a weekly look back, follow the server's prompts `plan_my_day`, `close_my_day` and `review_my_week`: confirm before each change, and move only the tasks the person names.

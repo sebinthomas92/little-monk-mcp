@@ -1,0 +1,13 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.sebinthomas92/little-monk",
+  "title": "Little Monk",
+  "description": "Daily planner for iPhone, iPad and Mac: today's plan, tasks, deep work, notes and ideas.",
+  "version": "1.0.0",
+  "websiteUrl": "https://app.littlemonk.app/docs/connect",
+  "repository": { "url": "https://github.com/sebinthomas92/little-monk-mcp", "source": "github" },
+  "icons": [
+    { "src": "https://app.littlemonk.app/brand/little-monk-icon-512.png", "mimeType": "image/png", "sizes": ["512x512"] }
+  ],
+  "remotes": [{ "type": "streamable-http", "url": "https://app.littlemonk.app/mcp" }]
+}

@@ -64,3 +64,7 @@ plugins/little-monk/skills/little-monk/SKILL.md planner vocabulary and rules
 ```
 
 The source of truth is `distribution/claude-code-plugin/` in the private `little-monk-web` repository; this public repository is a copy of that folder. Check both with `claude plugin validate .` and `claude plugin validate plugins/little-monk`.
+
+## MCP Registry
+
+`server.json` lists the server in the official MCP Registry as `io.github.sebinthomas92/little-monk` (remote only, no package). `.github/workflows/publish-mcp.yml` publishes it with GitHub OIDC on a `v*` tag or when run by hand. Bump `version` in `server.json` before each publish.

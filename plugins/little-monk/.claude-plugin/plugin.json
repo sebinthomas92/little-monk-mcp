@@ -9,6 +9,8 @@
   "homepage": "https://app.littlemonk.app/docs/connect/claude-code",
   "repository": "https://github.com/sebinthomas92/little-monk-mcp",
   "privacyPolicyUrl": "https://littlemonk.app/privacy",
+  "termsOfServiceUrl": "https://littlemonk.app/terms",
+  "supportUrl": "mailto:support@littlemonk.app",
   "license": "Proprietary",
   "keywords": [
     "planner",
